@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlobStorage.Api", "BlobStorage.Api\BlobStorage.Api.csproj", "{2AC8E2B3-51DC-488E-B0F5-65C8AB4AA3DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlobStorage.Shared", "BlobStorage.Shared\BlobStorage.Shared.csproj", "{65AA232A-DFF3-4694-BD8F-AF6516C73D54}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlobStorage.AzureFunctions", "BlobStorage.AzureFunctions\BlobStorage.AzureFunctions.csproj", "{64474085-8DA9-4E19-8A71-64D7E6376951}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlobStorage.ClientApp", "BlobStorage.ClientApp\BlobStorage.ClientApp.csproj", "{929D0194-FBDC-40B3-B473-D1E9D40E7940}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AC8E2B3-51DC-488E-B0F5-65C8AB4AA3DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AC8E2B3-51DC-488E-B0F5-65C8AB4AA3DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AC8E2B3-51DC-488E-B0F5-65C8AB4AA3DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AC8E2B3-51DC-488E-B0F5-65C8AB4AA3DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65AA232A-DFF3-4694-BD8F-AF6516C73D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65AA232A-DFF3-4694-BD8F-AF6516C73D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65AA232A-DFF3-4694-BD8F-AF6516C73D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65AA232A-DFF3-4694-BD8F-AF6516C73D54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64474085-8DA9-4E19-8A71-64D7E6376951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64474085-8DA9-4E19-8A71-64D7E6376951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64474085-8DA9-4E19-8A71-64D7E6376951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64474085-8DA9-4E19-8A71-64D7E6376951}.Release|Any CPU.Build.0 = Release|Any CPU
+		{929D0194-FBDC-40B3-B473-D1E9D40E7940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{929D0194-FBDC-40B3-B473-D1E9D40E7940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{929D0194-FBDC-40B3-B473-D1E9D40E7940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{929D0194-FBDC-40B3-B473-D1E9D40E7940}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
